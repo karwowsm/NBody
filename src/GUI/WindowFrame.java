@@ -188,8 +188,8 @@ public class WindowFrame extends javax.swing.JFrame {
         if (s != null) {
             String info;
             if (s.E2 != 0) {
-                info = "Błąd bezwzględny: " + "|E1-E2| = |" + s.E1 + " - (" + s.E2 + ")| = " + Math.abs((s.E1 - s.E2)) + " J\n"
-                        + "Błąd względny: " + "(E1 -E2)/E2 = " + ((s.E1 - s.E2) / s.E1 * 100) + "%\n";
+                info = "Błąd bezwzględny: " + "|E2-E1| = |" + s.E2 + " - (" + s.E1 + ")| = " + Math.abs((s.E2 - s.E1)) + " J\n"
+                        + "Błąd względny: " + "(E2 -E1)/E1 = " + ((s.E2 - s.E1) / s.E1 * 100) + "%\n";
             } else {
                 info = "Symulacja nie dobiegła jeszcze końca\n";
             }

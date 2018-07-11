@@ -27,7 +27,7 @@ public class FileBodiesReader {
             try {
                 b_number = Integer.parseInt(line);
             } catch (NumberFormatException e) {
-                throw new IllegalArgumentException("Zly format pliku z danymi: Nie odczytano liczby cial. (w funkcji readFile)");
+                throw new IllegalArgumentException("Zly format pliku z danymi: Nie odczytano liczby cial.");
             }
         }
         if (b_number <= 0) {
